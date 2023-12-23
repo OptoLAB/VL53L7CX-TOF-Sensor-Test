@@ -4,7 +4,9 @@
 
 This is simple demo project for ST’s VL53L7CX MultiZone time of flight (TOF) sensor. Project present simple readout demo for TCD TCD1304AP CCD sensor with 3648 light sensitive pixels. Firmware is built around timer modules using MPLAB Harmony v3. Communication with PC is achieved using USB in CDC mode (256000 baud rate). "GET" command initiates data tranfer. "SET" command can bi used for adjusting integration time (10us-655.35ms), veritcal resolution (6, 8, 10 or 12 bits) and horizontal resolution (number of measurement points/pixels). 
 
-Folder img contains some oscilloscope screenshots of important signals obtained during firmware development.
+<p align="center">
+<img src="https://github.com/OptoLAB/VL53L7CX-TOF-Sensor-Test/img/VL53L7CX.jpg" width="600"/>
+</p>
 
 Demo project is built using following ecosystem:
 
