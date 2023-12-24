@@ -17,4 +17,4 @@ Demo project is built using following ecosystem:
 
 More info can be found [here](https://www.optolab.ftn.uns.ac.rs/index.php/education/project-base/297-multizone-tof-sensor-demo-vl53l7cx)
 
-Demo video on [youtube](https://www.youtube.com/watch?v=VrheGO3DJa8) 
+Demo video on [youtube](https://www.youtube.com/watch?v=_qOaqZwT73s) 
