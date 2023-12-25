@@ -10,9 +10,11 @@
   ******************************************************************************
   */
 
+#include "vl53l7cx_api.h"
+
 #include <stdlib.h>
 #include <string.h>
-#include "vl53l7cx_api.h"
+
 #include "vl53l7cx_buffers.h"
 
 /**

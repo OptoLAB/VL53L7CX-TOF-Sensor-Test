@@ -23,9 +23,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "usbd_cdc_if.h"
-#include "vl53l7cx_api.h"
-#include "vl53l7cx_plugin_motion_indicator.h"
 #include <string.h>
+#include "vl53l7cx_api.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -60,7 +59,6 @@ extern uint8_t UserRxBufferFS[256];
 int status;
 VL53L7CX_Configuration 	Dev;
 VL53L7CX_ResultsData 	Results;
-VL53L7CX_Motion_Configuration 	motion_config;
 
 uint8_t resolution=64, ranging_frequency=10, sharpener_percent=50;
 uint16_t integration_time=20;
